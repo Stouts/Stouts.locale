@@ -11,6 +11,17 @@ Ansible role which ensure the defined locales are exists.
 locale_locales: []         # List of locales to installed
 ```
 
+#### Using
+
+Just set `locale_locales` in your playbook file.
+
+```yaml
+
+locale_locales:
+  - en_US.UTF-8
+  - ru_RU.UTF-8
+```
+
 #### License
 
 Licensed under the MIT License. See the LICENSE file for details.
