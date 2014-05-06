@@ -1,6 +1,8 @@
 st.locale
 =========
 
+[![Build Status](https://travis-ci.org/Stouts/st.locale.png)](https://travis-ci.org/Stouts/st.locale)
+
 Ansible role which ensure the defined locales are exists.
 
 #### Variables
