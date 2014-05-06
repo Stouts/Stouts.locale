@@ -3,3 +3,4 @@
 - name: Setup locales
   locale_gen: name={{item}} state=present
   with_items: locale_locales
+  tags: [locale]
