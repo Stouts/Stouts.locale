@@ -1,7 +1,7 @@
-st.locale
-=========
+Stouts.locale
+=============
 
-[![Build Status](https://travis-ci.org/Stouts/st.locale.png)](https://travis-ci.org/Stouts/st.locale)
+[![Build Status](https://travis-ci.org/Stouts/Stouts.locale.png)](https://travis-ci.org/Stouts/Stouts.locale)
 
 Ansible role which ensure the defined locales are exists.
 
@@ -14,7 +14,7 @@ locale_locales:            # List of locales to installed
 
 #### Usage
 
-Add `st.locale` to your roles and set `locale_locales` in your playbook file.
+Add `Stouts.locale` to your roles and set `locale_locales` in your playbook file.
 
 Example:
 
@@ -38,4 +38,4 @@ Licensed under the MIT License. See the LICENSE file for details.
 
 #### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/Stouts/st.locale/issues)!
+Are [welcome](https://github.com/Stouts/Stouts.locale/issues)!
