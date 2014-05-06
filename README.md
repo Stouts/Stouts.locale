@@ -8,18 +8,28 @@ Ansible role which ensure the defined locales are exists.
 #### Variables
 
 ```yaml
-locale_locales: []         # List of locales to installed
+locale_locales:            # List of locales to installed
+  - en_US.UTF-8
 ```
 
-#### Using
+#### Usage
 
-Just set `locale_locales` in your playbook file.
+Add `st.locale` to your roles and set `locale_locales` in your playbook file.
+
+Example:
 
 ```yaml
 
-locale_locales:
-  - en_US.UTF-8
-  - ru_RU.UTF-8
+- hosts: all
+
+  roles:
+    - st.foundation
+
+  vars:
+    locale_locales:
+      - en_US.UTF-8
+      - ru_RU.UTF-8
+
 ```
 
 #### License
