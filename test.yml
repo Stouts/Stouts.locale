@@ -1,5 +1,6 @@
 - hosts: all
   vars:
+      locale_enabled: yes
       locale_locales: []
   tasks:
-    - include: 'tasks/main.yml'
+    - include: tasks/main.yml
