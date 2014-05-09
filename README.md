@@ -8,6 +8,7 @@ Ansible role which ensure the defined locales are exists.
 #### Variables
 
 ```yaml
+locale_enabled: yes        # Enable role
 locale_locales:            # List of locales to installed
   - en_US.UTF-8
 ```
