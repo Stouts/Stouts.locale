@@ -1,4 +1,4 @@
- ---
+---
 
 - name: Install locales
   apt: pkg=locales state=present
