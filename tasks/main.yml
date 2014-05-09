@@ -1,10 +1,4 @@
 ---
 
-- name: Install locales
-  apt: pkg=locales state=present
-  tags: [locale]
-
-- name: Generate locales
-  locale_gen: name={{item}} state=present
-  with_items: locale_locales
+- include: locale.yml
   tags: [locale]
