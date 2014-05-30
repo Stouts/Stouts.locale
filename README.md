@@ -24,7 +24,7 @@ Example:
 - hosts: all
 
   roles:
-    - st.foundation
+    - Stouts.locale
 
   vars:
     locale_locales:
