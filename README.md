@@ -2,8 +2,7 @@ Stouts.locale
 =============
 
 [![Build Status](http://img.shields.io/travis/Stouts/Stouts.locale.svg?style=flat-square)](https://travis-ci.org/Stouts/Stouts.locale)
-[![Galaxy](http://img.shields.io/badge/galaxy-Stouts.locale-blue.svg?style=flat-square)](https://galaxy.locale.com/list#/roles/828)
-[![Tag](http://img.shields.io/github/tag/Stouts/Stouts.locale.svg?style=flat-square)]()
+[![Galaxy](http://img.shields.io/badge/galaxy-Stouts.locale-blue.svg?style=flat-square)](https://galaxy.ansible.com/list#/roles/828)
 
 Ansible role which ensure the defined locales are exists.
 
