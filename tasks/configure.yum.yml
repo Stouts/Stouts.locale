@@ -1,0 +1,4 @@
+---
+
+- name: Install locales
+  yum: name=glibc-common

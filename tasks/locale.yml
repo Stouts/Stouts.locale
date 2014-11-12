@@ -1,8 +1,7 @@
 ---
 
-- name: Install locales
-  apt: pkg=locales state=present
+- include: configure.deb.yml
+  when: ansible_os_family == 'Debian'
 
-- name: Generate locales
-  locale_gen: name={{item}} state=present
-  with_items: locale_locales
+- include: configure.yum.yml
+  when: ansible_os_family == 'RedHat'
