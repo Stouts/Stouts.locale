@@ -1,5 +1,5 @@
 ---
 
-- include: locale.yml
+- import_tasks: locale.yml
   when: locale_enabled
   tags: [locale]
