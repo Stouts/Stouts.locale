@@ -1,7 +1,7 @@
 ---
 
-- import_tasks: configure.deb.yml
+- include_tasks: configure.deb.yml
   when: ansible_os_family == 'Debian'
 
-- import_tasks: configure.yum.yml
+- include_tasks: configure.yum.yml
   when: ansible_os_family == 'RedHat'
