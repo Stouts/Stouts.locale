@@ -1,10 +1,12 @@
 ---
 
 - name: Install locales
-  apt: pkg=locales state=present
+  ansible.builtin.apt:
+    pkg: locales
+    state: present
 
 - name: Generate locales
   community.general.locale_gen:
-    name: "{{item}}"
+    name: "{{ item }}"
     state: present
-  with_items: "{{locale_locales}}"
+  loop: "{{ locale_locales }}"

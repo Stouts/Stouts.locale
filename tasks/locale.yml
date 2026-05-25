@@ -1,7 +1,7 @@
 ---
 
-- include_tasks: configure.deb.yml
-  when: ansible_os_family == 'Debian'
+- ansible.builtin.include_tasks: configure.deb.yml
+  when: ansible_facts['os_family'] == 'Debian'
 
-- include_tasks: configure.yum.yml
-  when: ansible_os_family == 'RedHat'
+- ansible.builtin.include_tasks: configure.yum.yml
+  when: ansible_facts['os_family'] == 'RedHat'

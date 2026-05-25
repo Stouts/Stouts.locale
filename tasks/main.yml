@@ -1,5 +1,5 @@
 ---
 
-- include_tasks: locale.yml
+- ansible.builtin.include_tasks: locale.yml
   when: locale_enabled
   tags: [locale]
