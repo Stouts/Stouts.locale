@@ -1,5 +1,5 @@
 ---
 
-locale_enabled: yes
+locale_enabled: true
 locale_locales:
-- en_US.UTF-8
+  - en_US.UTF-8

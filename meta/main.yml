@@ -8,14 +8,14 @@ galaxy_info:
   description: Ansible role which ensure the defined locales are exists.
   license: MIT
   platforms:
-  - name: Ubuntu
-    versions:
-    - all
-  - name: RedHat
-    versions:
-    - all
-  - name: CentOS
-    versions:
-    - all
-  categories:
-  - system
+    - name: Ubuntu
+      versions:
+        - all
+    - name: RedHat
+      versions:
+        - all
+    - name: CentOS
+      versions:
+        - all
+  galaxy_tags:
+    - system
